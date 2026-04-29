@@ -1,1 +1,1 @@
-console.log('MCP working');
+console.log(1)

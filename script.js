@@ -1,1 +1,1 @@
-string
+console.log(1)

@@ -1,0 +1,17 @@
+name: Deploy to Render (only when script.js changes)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'script.js'   # 👈 only triggers when this file changes
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger Render Deploy
+        run: |
+          curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}

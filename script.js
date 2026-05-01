@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     startTestBtn.addEventListener('click', function(e) {
         // Add click effect
-        this.style.transform = 'scale(0.95)';
+        this.style.transform = 'scale(0.85)';
         
         // Simulate button press animation
         setTimeout(() => {

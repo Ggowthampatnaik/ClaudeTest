@@ -11,7 +11,7 @@ function toggleStickyCTA() {
     }
 }
 
-// Scroll Reveals
+// Scroll Reveals the 
 const revealElements = document.querySelectorAll('.reveal');
 
 function revealOnScroll() {
